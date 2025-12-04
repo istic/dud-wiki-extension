@@ -1,0 +1,220 @@
+
+body {
+	background-color: auto;
+}
+
+.navbar-default {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,000000+100;Black+3D+%231 */
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #000000 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #45484d 0%,#000000 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #45484d 0%,#000000 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#000000',GradientType=0 ); /* IE6-9 */
+
+}
+
+a:focus, .navbar-default .navbar-nav > li > a:hover {
+	color: #CCC;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#45484d+0,5b0e0e+100 */
+background: #45484d; /* Old browsers */
+background: -moz-linear-gradient(top,  #45484d 0%, #5b0e0e 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #45484d 0%,#5b0e0e 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #45484d 0%,#5b0e0e 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#45484d', endColorstr='#5b0e0e',GradientType=0 ); /* IE6-9 */
+
+}
+
+.file-download a {
+
+    padding: 2em;
+    display: inline-block;
+
+	font-family: fleisch-wolf, sans-serif;
+   font-weight: 400;
+   font-style: normal;
+
+   --notchSize: 30px;
+
+   
+   background-repeat: no-repeat; 
+   background-size: cover;
+   background-position:  center;;
+   color: #EEE;
+   background: #345;
+  
+   clip-path: 
+	 polygon(
+	   0% 0%, 
+	   calc(100% - var(--notchSize)) 0%, 
+	   100% var(--notchSize), 
+	   100% calc(100% - var(--notchSize)), 
+	   calc(100% - var(--notchSize)) 100%, 
+	   var(--notchSize) 100%, 
+	   0% calc(100% - var(--notchSize))
+	 );
+}
+
+.file-download p {
+	margin: 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #FFF;
+}
+
+.navbar-light .navbar-nav .nav-link:hover, .navbar-light .navbar-nav .show>.nav-link  {
+    color: #EEE;
+}
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	text-shadow: none;
+}
+
+.sidebar-container.not-editable .btn-group {
+	display: none;
+}
+
+.navbar-default .navbar-brand {
+ 	color: white;
+ 	font-family: fleisch-wolf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+ }
+
+ h1, h2, h3, h4, h5, h6 {
+ 	font-family: fleisch-wolf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+ }
+
+.intro {
+ 	font-family: fleisch-wolf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+	font-size: x-large;
+	text-align: center;
+ }
+
+ .intro p {
+ 	padding-bottom: 1em;
+ }
+
+ #catlinks {display:block;}
+
+ #catlinks:empty {
+  display:none;
+}
+
+
+#catlinks .alba-jumbotron {
+ 	font-family: fleisch-wolf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+
+.nav-box {
+	border: 1px solid grey;
+	box-shadow: 2px 2px 5px #DDD;
+	border-radius: 20px 5px 20px 5px;
+	margin-top: 2em;
+}
+
+.nav-titlepic {
+    background-repeat: no-repeat; 
+    background-size: cover;
+	background-position:  center;;
+	color: #EEE;
+	text-shadow: 2px 2px 5px #000;
+
+ 	font-family: fleisch-wolf, sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+	font-size: xx-large;
+
+	flex-grow: 2; 
+
+	padding: .25em;
+
+	border-radius: 20px 5px 0 0;
+	border-bottom: 1px solid black;
+
+
+}
+
+
+
+.dud-jumbotron {
+    background-repeat: no-repeat; 
+    background-size: cover;
+	background-position:  center;;
+	color: #EEE;
+	text-shadow: 2px 2px 5px #000;
+	
+
+  --notchSize: 30px;
+  
+  clip-path: 
+    polygon(
+      0% var(--notchSize), 
+      var(--notchSize) 0%, 
+      calc(100% - var(--notchSize)) 0%, 
+      100% var(--notchSize), 
+      100% calc(100% - var(--notchSize)), 
+      calc(100% - var(--notchSize)) 100%, 
+      var(--notchSize) 100%, 
+      0% calc(100% - var(--notchSize))
+    );
+}
+
+.nav-contenttable {
+	flex-grow:6;
+
+}
+.nav-contenttable td, th {
+	padding-left: .5em;
+}
+.nav-contenttable  th {
+	vertical-align: top;
+}
+
+
+.blackhole-background {
+	background-image: url('//art.istic.net/dud-assets/jumbotron/black-hole-4092609_960_720.jpg');
+}
+
+.systemmap-background {
+	background-image: url('//art.istic.net/dud-assets/retina/Sector-Map-Red.jpg@900');
+}
+
+.vitruvian-background {
+	background-image: url('//art.istic.net/dud-assets/jumbotron/vitruvian-mechanicus.jpg');
+}
+
+
+img {
+	max-width: 100%;
+	width: auto !important; 
+}
+
+.safety-background {
+	background-image: url('//art.istic.net/alba-assets/safety.jpg');
+}
+
+
+.tickets-background {
+	background-image: url('//art.istic.net/alba-assets/tickets.jpg');
+}
+
+.wagon-background {
+	background-image: url('//art.istic.net/alba-assets/wagon.jpg');
+}
+
+.seagull-background {
+	background-image: url('//art.istic.net/alba-assets/seagull.jpg');
+}
+
+

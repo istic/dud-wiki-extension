@@ -1,10 +1,10 @@
 ( function () {
 
 	/**
-	 * @class mw.AlbaCustomStuff
+	 * @class mw.DUDCustomStuff
 	 * @singleton
 	 */
-	mw.AlbaCustomStuff = {
+	mw.DUDCustomStuff = {
 	};
 
 }() );

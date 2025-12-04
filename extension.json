@@ -1,53 +1,43 @@
 {
-	"name": "CarcosaDreams",
+	"name": "DUDCustomStuff",
 	"author": [
 		"Nicholas Avenell"
 	],
-	"url": "https://www.mediawiki.org/wiki/Extension:CarcosaDreams",
-	"descriptionmsg": "CarcosaDreams-desc",
+	"url": "https://www.mediawiki.org/wiki/Extension:DUDCustomStuff",
+	"descriptionmsg": "DUDCustomStuff-desc",
 	"license-name": "GPL-2.0-or-later",
 	"type": "other",
 	"requires": {
 		"MediaWiki": ">= 1.30.0"
 	},
 	"AutoloadClasses": {
-		"MediaWiki\\Extension\\CarcosaDreams\\Hooks": "includes/Hooks.php"
+		"MediaWiki\\Extension\\DUDCustomStuff\\Hooks": "includes/Hooks.php"
 	},
 	"AutoloadNamespaces": {
-		"MediaWiki\\Extension\\CarcosaDreams\\": "includes/"
+		"MediaWiki\\Extension\\DUDCustomStuff\\": "includes/"
 	},
 	"config": {
-		"CarcosaDreamsEnableFoo": {
+		"DUDCustomStuffEnableFoo": {
 			"description": "Enable the Foo feature.",
 			"value": true
 		}
 	},
 	"Hooks": {
-		"BeforePageDisplay": "MediaWiki\\Extension\\CarcosaDreams\\Hooks::onBeforePageDisplay"
+		"BeforePageDisplay": "MediaWiki\\Extension\\DUDCustomStuff\\Hooks::onBeforePageDisplay"
 	},
 	"MessagesDirs": {
-		"CarcosaDreams": [
+		"DUDCustomStuff": [
 			"i18n"
 		]
 	},
 	"ResourceFileModulePaths": {
 		"localBasePath": "resources",
-		"remoteExtPath": "CarcosaDreams/resources"
+		"remoteExtPath": "DUDCustomStuff/resources"
 	},
   	"ResourceModules": {
-		"w.Global.styles": {
+		"x.DUDCustomStuff.styles": {
 			"styles": [
-				"x.globalstyles.css"
-			]
-		},
-		"x.AlbaCustomStuff.styles": {
-			"styles": [
-				"x.alba.css"
-			]
-		},
-		"x.SisyphusCustomStuff.styles": {
-			"styles": [
-				"x.sisyphus.css"
+				"x.dud.css"
 			]
 		},
 		"x.ForsakenCustomStuff.styles": {
